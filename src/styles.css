@@ -1,0 +1,91 @@
+.contenedor1 {
+  width: 100%;
+  background: blue;
+  outline-style: solid;
+  outline-color: black;
+  border-radius: 0.5rem;
+  height: 100px;
+}
+
+.contenedor2 {
+  height: 750px;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.bloque2 {
+  width: 35%;
+  background: red;
+  outline-style: solid;
+  outline-color: black;
+  border-radius: 0.5rem;
+  margin-top: 15px;
+  height: 780px;
+}
+
+.contenedor3 {
+  width: 65%;
+  margin-right: 15px;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.contenedor3-1 {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.bloque3 {
+  width: 100%;
+  background: greenyellow;
+  outline-style: solid;
+  outline-color: black;
+  border-radius: 0.5rem;
+  margin-top: 15px;
+  margin-left: 15px;
+  height: 250px;
+}
+
+.bloque4 {
+  width: 100%;
+  background: yellow;
+  outline-style: solid;
+  outline-color: black;
+  border-radius: 0.5rem;
+  margin-top: 15px;
+  margin-left: 15px;
+  height: 250px;
+}
+
+.contenedor3-2 {
+  width: 100%;
+  margin-left: 15px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.bloque5 {
+  width: 50%;
+  background: skyblue;
+  outline-style: solid;
+  outline-color: black;
+  border-radius: 0.5rem;
+  margin-top: 15px;
+  margin-right: 7.5px;
+  height: 250px;
+}
+
+.bloque6 {
+  width: 50%;
+  background: purple;
+  outline-style: solid;
+  outline-color: black;
+  border-radius: 0.5rem;
+  margin-top: 15px;
+  margin-left: 7.5px;
+  height: 250px;
+}
